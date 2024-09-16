@@ -12,7 +12,7 @@ espacio entre palabra y palabra.
 import pandas as pd
 import re
 
-def ingest_data():
+def ingest_data(): 
     with open('clusters_report.txt') as report:
         rows = report.readlines()
     rows = rows[4:]
